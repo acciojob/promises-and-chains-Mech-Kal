@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffcb05, #3b4cca);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+h2 {
+  color: #3b4cca;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #3b4cca;
+  text-align: center;
+}
+
+button {
+  background-color: #ffcb05;
+  color: #3b4cca;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3b4cca;
+  color: white;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
